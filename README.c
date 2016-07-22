@@ -19,7 +19,7 @@ int i,j;
    if((a[i][j]=='t')&&(a[i][j+1]=='o')&&(a[i][j+2]=='o'))
 
              {
-                 printf("Start Index:<%d %d>End Index<%d %d>",i,j,i,j+2)
+                 printf("Start Index:<%d %d>End Index<%d %d>",i,j,i+2,j)
              }
    
       }
